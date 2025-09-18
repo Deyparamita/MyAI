@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="500" height="200" viewBox="0 0 600 200" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">MyAI logo</title>
+
+  <!-- Gradient (blue -> purple) -->
+  <defs>
+    <linearGradient id="gradBluePurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5044E5"/>
+      <stop offset="100%" stop-color="#7A4CF0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon background: rounded square -->
+  <g transform="translate(55,30)">
+    <rect x="0" y="0" rx="22" ry="22" width="120" height="120"
+          fill="url(#gradBluePurple)"/>
+
+    <!-- Lightbulb icon (scaled & centered) -->
+    <g transform="translate(20,5) scale(0.65)">
+      <!-- Bulb outline -->
+      <path d="M60 10
+               C85 10, 110 35, 110 70
+               C110 95, 90 115, 75 135
+               L75 150 H45 L45 135
+               C30 115, 10 95, 10 70
+               C10 35, 35 10, 60 10 Z"
+            fill="none" stroke="#FFFFFF" stroke-width="5"/>
+
+      <!-- Filament -->
+      <circle cx="60" cy="80" r="6" fill="#FFFFFF"/>
+      <line x1="60" y1="80" x2="45" y2="95" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="60" y1="80" x2="75" y2="95" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="60" y1="80" x2="60" y2="100" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- Circuit nodes -->
+      <circle cx="45" cy="95" r="5" fill="#FFFFFF"/>
+      <circle cx="75" cy="95" r="5" fill="#FFFFFF"/>
+      <circle cx="60" cy="100" r="5" fill="#FFFFFF"/>
+
+      <!-- Bulb base -->
+      <rect x="45" y="150" width="30" height="12" rx="3" fill="#FFFFFF"/>
+      <rect x="47" y="162" width="26" height="8" rx="2" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- Wordmark: "MyAI" -->
+  <g transform="translate(190,115)">
+    <text x="0" y="0" font-family="Segoe UI, Roboto, Arial, sans-serif"
+          font-weight="700" font-size="64" fill="url(#gradBluePurple)" letter-spacing="-1">
+      MyAI
+    </text>
+  </g>
+
+</svg>
