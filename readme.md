@@ -1,6 +1,6 @@
 # MyAI 🚀
 
-MyAI is a full-stack AI SaaS application built with **MERN (MongoDB, Express, React, Node.js)** and **Clerk Authentication**.  
+MyAI is a full-stack AI SaaS application built with **PERN (PostgreSQL, Express, React, Node.js)** and **Clerk Authentication**.  
 It provides multiple AI-powered features such as:
 - ✍️ Generate Articles
 - 📰 Generate Blog Titles
