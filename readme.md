@@ -56,3 +56,27 @@ project-root/
 - 🤖 AI-powered generation & review
 
 ---
+
+## Screenshots
+
+![Homepage-1](/Screenshots/Home-page-1.png)
+![Homepage-2](/Screenshots/Home-page-2.png)
+![Homepage-3](/Screenshots/Home-page-3.png)
+![Login](/Screenshots/login.png)
+![Dashboard](/Screenshots/Dashboard.png)
+![WriteArticle](/Screenshots/WriteArticle.png)
+![Blog](/Screenshots/Blog.png)
+![GenerateImage](/Screenshots/GenerateImage.png)
+![RemoveBackground](/Screenshots/RemoveBackground.png)
+![RemoveObject](/Screenshots/RemoveObject.png)
+![ResumeReview](/Screenshots/ResumeReview.png)
+
+---
+
+
+
+
+
+
+
+
